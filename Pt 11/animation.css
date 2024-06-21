@@ -1,0 +1,22 @@
+div {
+  width: 600px;
+  height: 400px;
+  background-color: black;
+  animation-name: boxtada;
+  animation-duration: 10s;
+  text-align: center;
+}
+
+
+@keyframes boxtada {
+    0%   {background-color: purple;}
+    20%  {background-color: orchid;}
+    30%  {background-color: pink;}
+    40%  {background-color: yellow;}
+    50%  {background-color: yellowgreen;}
+    60%  {background-color: aquamarine;}
+    70%  {background-color: aqua;}
+    80%  {background-color: lightskyblue}
+    90%  {background-color: slateblue;}
+    100% {background-color: purple;}
+}

@@ -1,0 +1,40 @@
+header .danger {
+  color: darkgoldenrod;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid pink;
+  background-color: black;
+}
+
+body {
+  background-color: lightgray;
+  font-family: "lucida sans";
+  color: darkred;
+}
+body nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+body nav li {
+  display: inline-block;
+}
+body nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+body h1 {
+  color: darkred;
+  text-align: center;
+}
+body p {
+  color: darkred;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  color: black;
+}/*# sourceMappingURL=main.css.map */

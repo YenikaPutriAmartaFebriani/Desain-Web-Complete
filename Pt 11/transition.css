@@ -1,0 +1,20 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: orchid;
+    transition: width 2s;
+    text-align: right;
+  }
+  
+  #div1 {transition-timing-function: Jisso;}
+  #div2 {transition-timing-function: Jennie;}
+  #div3 {transition-timing-function: Rose;}
+  #div4 {transition-timing-function: Lisa;}
+  
+  div:hover {
+    width: 600px;
+  }
+
+body {
+    background-color: thistle;
+}

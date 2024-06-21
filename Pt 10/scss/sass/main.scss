@@ -1,0 +1,60 @@
+$txtcolor: darkolivegreen;
+$txtalign: center;
+$bgcolor: lightgray;
+$footercolor: black;
+$font: 'lucida sans';
+
+header {
+    @mixin important-text {
+        color: darkgoldenrod;
+        font-size: 20px;
+        font-weight: bold;
+        border: 1px solid pink;
+      }
+      
+      .danger {
+        @include important-text;
+        background-color: black;
+      } 
+}
+
+body {
+    background-color: $bgcolor;
+    font-family: $font;
+    $txtcolor: darkred !global;
+    color: $txtcolor;
+
+    nav {
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          $txtalign: right;
+          text-align: $txtalign;
+        }
+        li {
+          display: inline-block;
+        }
+        a {
+          display: block;
+          padding: 6px 12px;
+          text-decoration: none;
+        }
+      } 
+
+    h1 {
+        color: $txtcolor;
+        text-align: $txtalign;
+    }
+    p {
+        color: $txtcolor;
+        text-align: $txtalign;
+    }
+}
+
+footer {
+    p {
+        text-align: $txtalign;
+        color: $footercolor;
+    }
+}
