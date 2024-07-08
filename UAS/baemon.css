@@ -1,0 +1,286 @@
+.sampul {
+    float: right;
+    width: 240px;
+    height: 240px;
+    margin-right: 10;
+  }
+
+.navigasi {
+    list-style: none;
+    margin: 0;
+    padding: 30;
+    overflow: hidden;
+    background-color: slategrey;
+}
+
+.navigasi li {
+    display: inline-block;
+}
+
+.navigasi li a {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navigasi li a:hover {
+    color: rgb(0, 0, 45);
+}
+
+.penampung {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*s*/
+@media(min-width: 576px) {
+    .penampung {
+        width: 540px;
+    }
+}
+
+/*m*/
+@media(min-width: 768px) {
+    .penampung {
+        width: 720px;
+    }
+}
+
+/*l*/
+@media(min-width: 992px) {
+    .penampung {
+        width: 960px;
+    }
+}
+
+/*xl*/
+@media(min-width: 1200px) {
+    .penampung {
+        width: 1140px;
+    }
+}
+
+/*xxl*/
+@media(min-width: 1400px) {
+    .penampung {
+        width: 1320px;
+    }
+}
+
+.baris {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+}
+
+.kol-1 {
+    grid-column: span 1;
+}
+.kol-2 {
+    grid-column: span 2;
+}
+.kol-3 {
+    grid-column: span 3;
+}
+.kol-4 {
+    grid-column: span 4;
+}
+.kol-5 {
+    grid-column: span 5;
+}
+.kol-6 {
+    grid-column: span 6;
+}
+.kol-7 {
+    grid-column: span 7;
+}
+.kol-8 {
+    grid-column: span 8;
+}
+.kol-9 {
+    grid-column: span 9;
+}
+.kol-10 {
+    grid-column: span 10;
+}
+.kol-11 {
+    grid-column: span 11;
+}
+.kol-12 {
+    grid-column: span 12;
+}
+
+/*kol-m*/
+@media(min-width: 768px) {
+    .kol-m1 {
+        grid-column: span 1;
+    }
+    .kol-m2 {
+        grid-column: span 2;
+    }
+    .kol-m3 {
+        grid-column: span 3;
+    }
+    .kol-m4 {
+        grid-column: span 4;
+    }
+    .kol-m5 {
+        grid-column: span 5;
+    }
+    .kol-m6 {
+        grid-column: span 6;
+    }
+    .kol-m7 {
+        grid-column: span 7;
+    }
+    .kol-m8 {
+        grid-column: span 8;
+    }
+    .kol-m9 {
+        grid-column: span 9;
+    }
+    .kol-m10 {
+        grid-column: span 10;
+    }
+    .kol-m11 {
+        grid-column: span 11;
+    }
+    .kol-m12 {
+        grid-column: span 12;
+    }
+}
+
+/*kol-l*/
+@media(min-width: 992px) {
+    .kol-l1 {
+        grid-column: span 1;
+    }
+    .kol-l2 {
+        grid-column: span 2;
+    }
+    .kol-l3 {
+        grid-column: span 3;
+    }
+    .kol-l4 {
+        grid-column: span 4;
+    }
+    .kol-l5 {
+        grid-column: span 5;
+    }
+    .kol-l6 {
+        grid-column: span 6;
+    }
+    .kol-l7 {
+        grid-column: span 7;
+    }
+    .kol-l8 {
+        grid-column: span 8;
+    }
+    .kol-l9 {
+        grid-column: span 9;
+    }
+    .kol-l10 {
+        grid-column: span 10;
+    }
+    .kol-l11 {
+        grid-column: span 11;
+    }
+    .kol-l12 {
+        grid-column: span 12;
+    }
+}
+
+/*kol-xl*/
+@media(min-width: 1200px) {
+    .kol-xl1 {
+        grid-column: span 1;
+    }
+    .kol-xl2 {
+        grid-column: span 2;
+    }
+    .kol-xl3 {
+        grid-column: span 3;
+    }
+    .kol-xl4 {
+        grid-column: span 4;
+    }
+    .kol-xl5 {
+        grid-column: span 5;
+    }
+    .kol-xl6 {
+        grid-column: span 6;
+    }
+    .kol-xl7 {
+        grid-column: span 7;
+    }
+    .kol-xl8 {
+        grid-column: span 8;
+    }
+    .kol-xl9 {
+        grid-column: span 9;
+    }
+    .kol-xl10 {
+        grid-column: span 10;
+    }
+    .kol-xl11 {
+        grid-column: span 11;
+    }
+    .kol-xl12 {
+        grid-column: span 12;
+    }
+}
+
+/*kol-xxl*/
+@media(min-width: 1400px) {
+    .kol-xxl1 {
+        grid-column: span 1;
+    }
+    .kol-xxl2 {
+        grid-column: span 2;
+    }
+    .kol-xxl3 {
+        grid-column: span 3;
+    }
+    .kol-xxl4 {
+        grid-column: span 4;
+    }
+    .kol-xxl5 {
+        grid-column: span 5;
+    }
+    .kol-xxl6 {
+        grid-column: span 6;
+    }
+    .kol-xxl7 {
+        grid-column: span 7;
+    }
+    .kol-xxl8 {
+        grid-column: span 8;
+    }
+    .kol-xxl9 {
+        grid-column: span 9;
+    }
+    .kol-xxl10 {
+        grid-column: span 10;
+    }
+    .kol-xxl11 {
+        grid-column: span 11;
+    }
+    .kol-xxl12 {
+        grid-column: span 12;
+    }
+}
+
+body {
+    background-color: rgb(246, 242, 234);
+}
+
+footer {
+    background-color: slategrey;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 100px;
+  }
